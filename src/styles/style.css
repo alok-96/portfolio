@@ -1,0 +1,35 @@
+::selection {
+    color: #ffffff;
+    background: #db8574;
+}
+
+input {
+    width: 100%;
+    border-bottom: 1px solid #3d155f;
+    background-color: transparent;
+    padding-block: 10px;
+    outline: none;
+    font-size: 18px;
+    font-weight:100;
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+.btn {
+    border-radius: 0px;
+    margin-top: 60px;
+    padding: 15px 50px;
+    background-color: transparent;
+    color: #db8574;
+    border: 1px solid #db8574;
+    background: linear-gradient(to left, transparent 50%, #db8574 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.btn:hover{
+    color: #ffffff; 
+    background-position: left;
+}
