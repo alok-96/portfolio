@@ -33,3 +33,8 @@ input:focus::placeholder{
     color: #ffffff; 
     background-position: left;
 }
+
+.disableBtn{
+    cursor: not-allowed;
+    background-color: white !important;
+}

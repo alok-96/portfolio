@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Hire from './components/Hire';
 import Footer from './components/Footer';
 import './styles/style.css';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Contact />
         <Hire />
         <Footer />
+        <Toaster />
       </Box>
     </Router>
   );

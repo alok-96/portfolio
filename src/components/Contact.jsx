@@ -9,15 +9,34 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { BsArrowRight } from 'react-icons/bs';
+import { toast } from 'react-hot-toast';
+import { addDoc, collection } from 'firebase/firestore';
+import { db } from '../firebase';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [disableButton, setDisableButton] = useState(false);
 
-  const submitHandler = e => {
+  const submitHandler = async e => {
     e.preventDefault();
-    console.log(name, email, message);
+    setDisableButton(true);
+    try {
+      await addDoc(collection(db, 'contacts'), {
+        name,
+        email,
+        message,
+      });
+      toast.success('Message sent successfully.');
+      setName('');
+      setEmail('');
+      setMessage('');
+      setDisableButton(false);
+    } catch (error) {
+      toast.error('Error ! Message not sent.');
+      setDisableButton(false);
+    }
   };
 
   return (
@@ -70,7 +89,7 @@ const Contact = () => {
             />
             <br />
             <Center>
-              <button className="btn" type="submit">
+              <button className={disableButton ? "disableBtn btn" : "btn"} type="submit"  >
                 <HStack alignItems={'center'} gap={'15px'}>
                   <Text fontSize={'18px'}>Shoot</Text>
                   <BsArrowRight size={35} />
