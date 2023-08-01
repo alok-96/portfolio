@@ -6,6 +6,7 @@ import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
+import project6 from '../assets/project6.png';
 
 const Projects = () => {
   const projects = [
@@ -14,7 +15,7 @@ const Projects = () => {
       name: 'Crypto Coin',
       image: project1,
       description:
-        'An application to track the stock prices of Crypto currencies like Bitcoin, Ethereum, Solana etc.',
+        'An application to track the stock prices of Crypto currencies like Bitcoin, Ethereum, Solana etc. Tech stack - React, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/crypto-coin',
       url: 'https://crypto-coin-alok96.netlify.app/',
     },
@@ -23,7 +24,7 @@ const Projects = () => {
       name: 'Mp4Point',
       image: project2,
       description:
-        'Dual theme frontend UI for the platform to upload and watch the videos related to tech, education, dance, recipes, gaming etc.',
+        'Dual theme frontend UI for the platform to upload and watch the videos related to tech, education, dance, recipes, gaming etc. Tech stack - React, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/Mp4Point',
       url: 'https://mp4point.netlify.app/',
     },
@@ -32,7 +33,7 @@ const Projects = () => {
       name: 'Netflix Clone',
       image: project3,
       description:
-        'This is the responsive clone of the homepage of Netflix. Tech stack to develop this website are HTML5 and CSS3.',
+        'This is the responsive clone of the homepage of Netflix. Tech stack - HTML, CSS.',
       githubLink: 'https://github.com/alok-96/netflix-clone',
       url: 'https://netflix-clone-alok96.netlify.app/',
     },
@@ -41,18 +42,27 @@ const Projects = () => {
       name: 'Musify',
       image: project4,
       description:
-        'This is a simple, responsive music player contining 10 songs. Tech stack to develop this website are HTML, CSS and JAVASCRIPT.',
+        'This is a simple, responsive music player contining 10 songs. Tech stack - HTML, CSS and JavaScript.',
       githubLink: 'https://github.com/alok-96/Musify',
       url: 'https://alok-96.github.io/Musify/',
     },
     {
       id: 5,
-      name: 'Portfolio',
+      name: 'Discord Clone',
       image: project5,
       description:
-        'Portfolio website. Tech stack to develop this website is React, ChakraUI, HTML, CSS and JAVASCRIPT.',
-      githubLink: 'https://github.com/alok-96/portfolio',
-      url: 'https://alok96.netlify.app',
+        'This is the responsive clone of the homepage of Discord. Tech stack -  React, ChakraUI, HTML, CSS, and JavaScript.',
+      githubLink: 'https://github.com/alok-96/Discord-Clone',
+      url: 'https://alok-96.github.io/Discord-Clone/',
+    },
+    {
+      id: 6,
+      name: 'Shopping Cart',
+      image: project6,
+      description:
+        'Shopping Cart for the E-Commerce Website. Tech stack - React, Redux, ChakraUI, HTML, CSS, and JavaScript.',
+      githubLink: 'https://github.com/alok-96/shopping-cart',
+      url: 'https://shopping-cart-alok96.netlify.app',
     },
   ];
   return (
