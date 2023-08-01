@@ -15,7 +15,7 @@ const Projects = () => {
       name: 'Crypto Coin',
       image: project1,
       description:
-        'An application to track the stock prices of Crypto currencies like Bitcoin, Ethereum, Solana etc. Tech stack - React, ChakraUI, HTML, CSS, and JavaScript.',
+        'An application to track the stock prices of Crypto currencies like Bitcoin, Ethereum, Solana etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/crypto-coin',
       url: 'https://crypto-coin-alok96.netlify.app/',
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       name: 'Mp4Point',
       image: project2,
       description:
-        'Dual theme frontend UI for the platform to upload and watch the videos related to tech, education, dance, recipes, gaming etc. Tech stack - React, ChakraUI, HTML, CSS, and JavaScript.',
+        'Frontend for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/Mp4Point',
       url: 'https://mp4point.netlify.app/',
     },
@@ -33,7 +33,7 @@ const Projects = () => {
       name: 'Netflix Clone',
       image: project3,
       description:
-        'This is the responsive clone of the homepage of Netflix. Tech stack - HTML, CSS.',
+        'This is the responsive clone of the homepage of Netflix. Tech stack - HTML, CSS and JavaScript.',
       githubLink: 'https://github.com/alok-96/netflix-clone',
       url: 'https://netflix-clone-alok96.netlify.app/',
     },
@@ -51,7 +51,7 @@ const Projects = () => {
       name: 'Discord Clone',
       image: project5,
       description:
-        'This is the responsive clone of the homepage of Discord. Tech stack -  React, ChakraUI, HTML, CSS, and JavaScript.',
+        'This is the responsive clone of the homepage of Discord. Tech stack -  HTML and CSS.',
       githubLink: 'https://github.com/alok-96/Discord-Clone',
       url: 'https://alok-96.github.io/Discord-Clone/',
     },
@@ -60,7 +60,7 @@ const Projects = () => {
       name: 'Shopping Cart',
       image: project6,
       description:
-        'Shopping Cart for the E-Commerce Website. Tech stack - React, Redux, ChakraUI, HTML, CSS, and JavaScript.',
+        'Shopping Cart for the E-Commerce Website. Tech stack - React.js, Redux, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/shopping-cart',
       url: 'https://shopping-cart-alok96.netlify.app',
     },
