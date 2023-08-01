@@ -1,6 +1,7 @@
 import { Container, HStack, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
-import { BiCurrentLocation, BiPhone } from 'react-icons/bi';
+import { BiPhone } from 'react-icons/bi';
+import { MdLocationOn } from 'react-icons/md';
 import {
   AiFillLinkedin,
   AiOutlineGithub,
@@ -28,16 +29,25 @@ const Footer = () => {
           borderBottom={'1px solid #5e5d5d'}
         >
           <HStack>
-            <BiCurrentLocation size={'30px'} color={'#db8574'} />
-            <Text color={'#757575'}>Gwalior, Madhya Pradesh</Text>
-          </HStack>
-          <HStack>
             <BiPhone size={'30px'} color={'#db8574'} />
-            <Text color={'#757575'}>+91 9610958182</Text>
+            <a href="tel:+919610958182">
+              <Text color={'#757575'}>+91 9610958182</Text>
+            </a>
           </HStack>
           <HStack>
             <AiOutlineMail size={'30px'} color={'#db8574'} />
-            <Text color={'#757575'}>dwivedialok799@gmail.com</Text>
+            <a href="mailto:dwivedialok799@gmail.com">
+              <Text color={'#757575'}>dwivedialok799@gmail.com</Text>
+            </a>
+          </HStack>
+          <HStack>
+            <MdLocationOn size={'30px'} color={'#db8574'} />
+            <a
+              href="http://maps.google.com/maps?q=Gwalior,+Madhya+Pradesh"
+              target="blank"
+            >
+              <Text color={'#757575'}>Gwalior, Madhya Pradesh</Text>
+            </a>
           </HStack>
         </Stack>
 
