@@ -1,64 +1,74 @@
 import { Container, Heading, HStack } from '@chakra-ui/react';
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.png';
-import project4 from '../assets/project4.png';
-import project5 from '../assets/project5.png';
-import project6 from '../assets/project6.png';
+import vartalaap from '../assets/vartalaap.png';
+import cryptocoin from '../assets/cryptocoin.png';
+import mp4point from '../assets/mp4point.png';
+import netflix from '../assets/netflix.png';
+import musify from '../assets/musify.png';
+import discord from '../assets/discord.png';
+import shoppingcart from '../assets/shoppingcart.png';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: 'Vartalaap',
+      image: vartalaap,
+      description:
+        'A chat application that enables users to exchange messages and communicate with each other in real-time. Tech stack - React.js, CSS, and Firebase.',
+      githubLink: 'https://github.com/alok-96/vartalaap',
+      url: 'https://vartalaap.pages.dev/',
+    },
+    {
+      id: 2,
       name: 'Crypto Coin',
-      image: project1,
+      image: cryptocoin,
       description:
         'An application to track the stock prices of Crypto currencies like Bitcoin, Ethereum, Solana etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/crypto-coin',
       url: 'https://crypto-coin-alok96.netlify.app/',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Mp4Point',
-      image: project2,
+      image: mp4point,
       description:
-        'Frontend for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
+        'User interface for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/Mp4Point',
       url: 'https://mp4point.netlify.app/',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Netflix Clone',
-      image: project3,
+      image: netflix,
       description:
         'This is the responsive clone of the homepage of Netflix. Tech stack - HTML, CSS and JavaScript.',
       githubLink: 'https://github.com/alok-96/netflix-clone',
       url: 'https://netflix-clone-alok96.netlify.app/',
     },
     {
-      id: 4,
+      id: 5,
       name: 'Musify',
-      image: project4,
+      image: musify,
       description:
         'This is a simple, responsive music player contining 10 songs. Tech stack - HTML, CSS and JavaScript.',
       githubLink: 'https://github.com/alok-96/Musify',
       url: 'https://alok-96.github.io/Musify/',
     },
     {
-      id: 5,
+      id: 6,
       name: 'Discord Clone',
-      image: project5,
+      image: discord,
       description:
         'This is the responsive clone of the homepage of Discord. Tech stack -  HTML and CSS.',
       githubLink: 'https://github.com/alok-96/Discord-Clone',
       url: 'https://alok-96.github.io/Discord-Clone/',
     },
     {
-      id: 6,
+      id: 7,
       name: 'Shopping Cart',
-      image: project6,
+      image: shoppingcart,
       description:
         'Shopping Cart for the E-Commerce Website. Tech stack - React.js, Redux, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/shopping-cart',
