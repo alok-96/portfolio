@@ -1,6 +1,6 @@
 import {
   Container,
-  Heading,
+  // Heading,
   Stack,
   Hide,
   Show,
@@ -9,10 +9,12 @@ import {
   IconButton,
   Menu,
   MenuList,
+  Img,
 } from '@chakra-ui/react';
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { HashLink } from 'react-router-hash-link';
+import logo from '../assets/logo.png'
 
 function Header() {
   return (
@@ -27,7 +29,7 @@ function Header() {
         justifyContent={'space-between'}
         alignItems={'center'}
       >
-        <Heading>Portfolio.</Heading>
+        <Img src={logo} w={'30px'}/>
         <Hide breakpoint="(max-width: 650px)">
           <Stack
             direction={['column', 'row']}
