@@ -22,8 +22,9 @@ function Navbar() {
           position: 'fixed',
           top: '50%',
           transform: 'translateY(-50%)',
-          right: '1.5rem',
+          right: '1rem',
           cursor: 'pointer',
+          zIndex: '1',
         }}
       >
         <HashLink to={'#home'} smooth>
