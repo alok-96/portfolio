@@ -12,18 +12,18 @@ import {
   AiFillLinkedin,
   AiOutlineGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from 'react-icons/ai';
 import image from '../assets/image.jpg';
 
 const Home = () => {
   return (
-    <Container maxW={'container.xl'} height={['90vh', '85vh']}>
+    <Container maxW={'container.xl'} height={'100vh'} id={'herosection'}>
       <Stack
         direction={['column-reverse', 'column-reverse', 'row']}
         alignItems="center"
         height={'full'}
-        justifyContent={[ 'space-evenly', 'space-evenly', 'space-between']}
+        justifyContent={['space-evenly', 'space-evenly', 'space-between']}
+        paddingInline={['0px', '50px', '50px', '100px']}
       >
         <VStack
           width={['100%', '100%', '50%']}
@@ -40,8 +40,8 @@ const Home = () => {
             Alok Dwivedi
           </Heading>
 
-          <Text fontSize={'17px'} letterSpacing={'1px'}>
-            I like to craft solid and scalable frontend products with great user
+          <Text fontSize={['17px', '18.5px', '20px']} letterSpacing={'0px'}>
+            I like to build solid and scalable frontend products with great user
             experiences and also like to write clean and reusabe source code.
           </Text>
 
@@ -49,17 +49,14 @@ const Home = () => {
             <a href="https://github.com/alok-96/" target="blank">
               <AiOutlineGithub size={'30px'} />
             </a>
-            <a href="https://twitter.com/alokdwivedi99/" target="blank">
-              <AiOutlineTwitter size={'30px'} />
-            </a>
             <a
               href="https://www.linkedin.com/in/alok-dwivedi-4347801b8/"
               target="blank"
             >
-              <AiFillLinkedin size={'30px'} />
+              <AiFillLinkedin size={'30px'} color={'#0072b1'} />
             </a>
-            <a href="https://www.instagram.com/_its_alok_07_/" target="blank">
-              <AiFillInstagram size={'30px'} />
+            <a href="https://twitter.com/alokdwivedi99/" target="blank">
+              <AiOutlineTwitter size={'30px'} color={'#00acee'} />
             </a>
           </HStack>
         </VStack>

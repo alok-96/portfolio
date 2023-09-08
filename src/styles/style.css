@@ -1,6 +1,5 @@
-::selection {
-    color: #ffffff;
-    background: #db8574;
+.icon:hover{
+    color: #db8574;
 }
 
 input {
@@ -37,4 +36,19 @@ input:focus::placeholder{
 .disableBtn{
     cursor: not-allowed;
     background-color: white !important;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #navbar{
+        display: none;
+    }
+
+    #herosection{
+        height: 100vh;
+    }
 }

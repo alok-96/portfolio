@@ -7,7 +7,7 @@ import mp4point from '../assets/mp4point.png';
 import netflix from '../assets/netflix.png';
 import musify from '../assets/musify.png';
 import discord from '../assets/discord.png';
-import shoppingcart from '../assets/shoppingcart.png';
+// import shoppingcart from '../assets/shoppingcart.png';
 
 const Projects = () => {
   const projects = [
@@ -34,7 +34,7 @@ const Projects = () => {
       name: 'Mp4Point',
       image: mp4point,
       description:
-        'User interface for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
+        'UI for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/alok-96/Mp4Point',
       url: 'https://mp4point.netlify.app/',
     },
@@ -65,15 +65,15 @@ const Projects = () => {
       githubLink: 'https://github.com/alok-96/Discord-Clone',
       url: 'https://alok-96.github.io/Discord-Clone/',
     },
-    {
-      id: 7,
-      name: 'Shopping Cart',
-      image: shoppingcart,
-      description:
-        'Shopping Cart for the E-Commerce Website. Tech stack - React.js, Redux, ChakraUI, HTML, CSS, and JavaScript.',
-      githubLink: 'https://github.com/alok-96/shopping-cart',
-      url: 'https://shopping-cart-alok96.netlify.app',
-    },
+    // {
+    //   id: 7,
+    //   name: 'Shopping Cart',
+    //   image: shoppingcart,
+    //   description:
+    //     'Shopping Cart for the E-Commerce Website. Tech stack - React.js, Redux, ChakraUI, HTML, CSS, and JavaScript.',
+    //   githubLink: 'https://github.com/alok-96/shopping-cart',
+    //   url: 'https://shopping-cart-alok96.netlify.app',
+    // },
   ];
   return (
     <div id="work" style={{ paddingBlock: '70px' }}>

@@ -1,6 +1,6 @@
 import { Center, Container, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Alok Dwivedi Resume.pdf';
 
 const about = () => {
   return (
@@ -15,7 +15,7 @@ const about = () => {
         <Text
           fontSize={[ '16px', '17px', '18px']}
           letterSpacing={'1px'}
-          textAlign={['center', 'center', 'left']}
+          textAlign={['center', 'center', 'center']}
         >
           Hey, I am Alok Dwivedi, final year student of Computer Science &
           Engineering from Rustamji Institute of Technology, B.S.F. Academy,

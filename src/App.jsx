@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { Box } from '@chakra-ui/react';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <Box bgColor={'#F4F2DE'}>
-        <Header />
+        <Navbar />
         <Home />
         <About />
         <Projects />
