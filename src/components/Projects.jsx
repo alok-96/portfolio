@@ -3,7 +3,8 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import vartalaap from '../assets/vartalaap.png';
 import cryptocoin from '../assets/cryptocoin.png';
-import mp4point from '../assets/mp4point.png';
+import todoapp from '../assets/todoapp.png';
+// import mp4point from '../assets/mp4point.png';
 import netflix from '../assets/netflix.png';
 import musify from '../assets/musify.png';
 import discord from '../assets/discord.png';
@@ -31,12 +32,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: 'Mp4Point',
-      image: mp4point,
+      name: 'To-Do App',
+      image: todoapp,
       description:
-        'UI for the application to upload and watch videos related to education, recipes, gaming etc. Tech stack - React.js, ChakraUI, HTML, CSS, and JavaScript.',
-      githubLink: 'https://github.com/alok-96/Mp4Point',
-      url: 'https://mp4point.netlify.app/',
+        'Task managing web application to help user to stay organized for his on day to day basis. Tech stack - React.js and CSS',
+      githubLink: 'https://github.com/alok-96/to-do-list',
+      url: 'https://to-do-app-alok96.netlify.app/',
     },
     {
       id: 4,
