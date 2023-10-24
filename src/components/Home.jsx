@@ -11,8 +11,8 @@ import React from 'react';
 import {
   AiFillLinkedin,
   AiOutlineGithub,
-  AiOutlineTwitter,
 } from 'react-icons/ai';
+import { FaXTwitter } from 'react-icons/fa6';
 import image from '../assets/image.jpg';
 
 const Home = () => {
@@ -53,10 +53,10 @@ const Home = () => {
               href="https://www.linkedin.com/in/alok-dwivedi-4347801b8/"
               target="blank"
             >
-              <AiFillLinkedin size={'30px'} color={'#0072b1'} />
+              <AiFillLinkedin size={'30px'} />
             </a>
             <a href="https://twitter.com/alokdwivedi99/" target="blank">
-              <AiOutlineTwitter size={'30px'} color={'#00acee'} />
+              <FaXTwitter size={'25px'} />
             </a>
           </HStack>
         </VStack>
@@ -66,6 +66,7 @@ const Home = () => {
           borderRadius={'35% 65% 60% 40% / 30% 45% 55% 70% '}
           height={['250px', '300px', '400px']}
           width={['250px', '300px', '400px']}
+          loading={'lazy'}
         />
       </Stack>
     </Container>

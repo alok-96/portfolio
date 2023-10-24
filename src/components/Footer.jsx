@@ -5,10 +5,10 @@ import { MdLocationOn } from 'react-icons/md';
 import {
   AiFillLinkedin,
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineMail,
 } from 'react-icons/ai';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -65,7 +65,7 @@ const Footer = () => {
               <AiOutlineGithub size={'30px'} />
             </a>
             <a href="https://twitter.com/alokdwivedi99/" target="blank">
-              <AiOutlineTwitter size={'30px'} />
+              <FaXTwitter size={'25px'} />
             </a>
             <a
               href="https://www.linkedin.com/in/alok-dwivedi-4347801b8/"
