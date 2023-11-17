@@ -18,6 +18,7 @@ const Footer = () => {
         backgroundColor: '#212529',
         color: '#757575',
         paddingBlock: '30px',
+        fontSize: '14px',
       }}
     >
       <Container maxW={'container.xl'}>

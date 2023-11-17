@@ -20,7 +20,7 @@ const Hire = () => {
             >
               <button
                 className="btn"
-                style={{ marginBlock: 0, fontSize: '18px' }}
+                style={{ marginBlock: 0, fontSize: '16px' }}
               >
                 Hire Me
               </button>

@@ -1,6 +1,5 @@
 import { Center, Container, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
-import resume from '../assets/Alok Dwivedi Resume.pdf';
 
 const about = () => {
   return (
@@ -13,22 +12,21 @@ const about = () => {
           About Me
         </Heading>
         <Text
-          fontSize={[ '16px', '17px', '18px']}
+          fontSize={[ '15px', '16px', '16.5px']}
           letterSpacing={'1px'}
           textAlign={['center', 'center', 'center']}
         >
           Hey, I am Alok Dwivedi, final year student of Computer Science &
           Engineering from Rustamji Institute of Technology, B.S.F. Academy,
           Gwalior, Madhya Pradesh. <br /> <br /> I am a Front-End developer
-          having experience in HTML, CSS and JavaScript and JavaScript library
-          like React. I like to build real time projects that solves the problems
+          having experience in HTML, CSS and JavaScript and React.js . I like to build real time projects that solves the problems
           of individual and as well as society. I also like to solve Data Structure and
           Algorithm's problem at various platforms like GFG, LeetCode and
-          HackerRank. Apart from that I am core team member at  RJIT Geeks(Programming Club at RJIT) and  GDSC RJIT.
+          HackerRank. Apart from that I am core team member at  RJIT Geeks(Programming Club at RJIT).
         </Text>
         <Center>
-          <a href={resume} target="blank">
-            <button className="btn" style={{ fontSize: '18px' }}>
+          <a href='https://docs.google.com/document/d/1iH-2AKjGJVFmOpirEr3Ey2jUjqg_lHohSHPm8xSw_rw/edit?usp=sharing' target="blank">
+            <button className="btn" style={{ fontSize: '16px' }}>
               Get Resume
             </button>
           </a>

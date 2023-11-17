@@ -40,7 +40,7 @@ const Home = () => {
             Alok Dwivedi
           </Heading>
 
-          <Text fontSize={['17px', '18.5px', '20px']} letterSpacing={'0px'}>
+          <Text fontSize={['15px', '16px', '17px']} letterSpacing={'0px'}>
             I like to build solid and scalable frontend products with great user
             experiences and also like to write clean and reusabe source code.
           </Text>

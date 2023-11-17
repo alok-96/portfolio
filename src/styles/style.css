@@ -14,7 +14,7 @@ input {
     background-color: transparent;
     padding-block: 10px;
     outline: none;
-    font-size: 18px;
+    font-size: 17px;
     font-weight:100;
 }
 
@@ -48,13 +48,3 @@ input:focus::placeholder{
     display: none;
 }
 
-
-@media screen and (max-width: 768px) {
-    #navbar{
-        display: none;
-    }
-
-    #herosection{
-        height: 100vh;
-    }
-}

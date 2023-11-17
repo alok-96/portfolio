@@ -45,7 +45,7 @@ const Contact = () => {
         <Heading textAlign={'center'}>Send me a message!</Heading>
         <Text
           textAlign={'center'}
-          fontSize={'20px'}
+          fontSize={'18px'}
           paddingBlock={'30px'}
           letterSpacing={'1px'}
         >
@@ -91,7 +91,7 @@ const Contact = () => {
             <Center>
               <button className={disableButton ? "disableBtn btn" : "btn"} type="submit"  >
                 <HStack alignItems={'center'} gap={'15px'}>
-                  <Text fontSize={'18px'}>Shoot</Text>
+                  <Text fontSize={'16px'}>Shoot</Text>
                   <BsArrowRight size={35} />
                 </HStack>
               </button>

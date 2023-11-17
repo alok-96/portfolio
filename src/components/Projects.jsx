@@ -4,11 +4,9 @@ import ProjectCard from './ProjectCard';
 import vartalaap from '../assets/vartalaap.png';
 import cryptocoin from '../assets/cryptocoin.png';
 import todoapp from '../assets/todoapp.png';
-// import mp4point from '../assets/mp4point.png';
 import netflix from '../assets/netflix.png';
 import musify from '../assets/musify.png';
-import discord from '../assets/discord.png';
-// import shoppingcart from '../assets/shoppingcart.png';
+import qrcode from '../assets/qrcode.png';
 
 const Projects = () => {
   const projects = [
@@ -59,22 +57,13 @@ const Projects = () => {
     },
     {
       id: 6,
-      name: 'Discord Clone',
-      image: discord,
+      name: 'QR Code Generator',
+      image: qrcode,
       description:
-        'This is the responsive clone of the homepage of Discord. Tech stack -  HTML and CSS.',
-      githubLink: 'https://github.com/alok-96/Discord-Clone',
-      url: 'https://alok-96.github.io/Discord-Clone/',
+        'This is a simple JavaScript app to generate QR Code for any given data or website URL. Tech stack -  HTML, CSS and JavaScript.',
+      githubLink: 'https://github.com/alok-96/QR-Code-Generator',
+      url: 'https://alok-96.github.io/QR-Code-Generator/',
     },
-    // {
-    //   id: 7,
-    //   name: 'Shopping Cart',
-    //   image: shoppingcart,
-    //   description:
-    //     'Shopping Cart for the E-Commerce Website. Tech stack - React.js, Redux, ChakraUI, HTML, CSS, and JavaScript.',
-    //   githubLink: 'https://github.com/alok-96/shopping-cart',
-    //   url: 'https://shopping-cart-alok96.netlify.app',
-    // },
   ];
   return (
     <div id="work" style={{ paddingBlock: '70px' }}>

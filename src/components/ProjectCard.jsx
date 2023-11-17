@@ -15,8 +15,6 @@ const ProjectCard = ({ id, name, image, description, githubLink, url }) => {
       alignItems={'center'}
       gap={'20px'}
       filter={'drop-shadow(0 0 0.25rem #cfc7c6)'}
-      // transition={'all 0.5s'}
-      // _hover={{ transform: 'scale(1.05)', boxShadow: 'lg' }}
     >
       <Img
         src={image}
@@ -37,7 +35,7 @@ const ProjectCard = ({ id, name, image, description, githubLink, url }) => {
         >
           {name}
         </Heading>
-        <Text fontSize={'15px'} textAlign={'center'} paddingInline={'4'}>
+        <Text fontSize={'14px'} textAlign={'center'} paddingInline={'4'}>
           {description}
         </Text>
         <HStack gap={'40px'}>
