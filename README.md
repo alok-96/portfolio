@@ -13,7 +13,7 @@ This is my personal portfolio to showcase about myself, my projects and tools & 
 
 ## Screenshots of the Project 📸
 
-![image](https://github.com/alok-96/portfolio/assets/90456532/3a319a73-7cb1-4e59-8664-dadfbbd3a7a4)
+![image](https://github.com/alok-96/portfolio/assets/90456532/7a35832d-4677-4f7b-a762-9570b38f0efe)
 
 
 <h3 align='center'>Made With ❤️ by <a href='https://github.com/alok-96' >alok-96</a></h3>
